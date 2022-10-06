@@ -1,0 +1,71 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/login_bg.jpg');
+}
+
+.loginBox {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 400px;
+    height: 310px;
+    background-color: #fff;
+    transform: translate(-50%, -50%);
+}
+
+.loginBox .title {
+    height: 60px;
+    background-image: url('../images/login_title.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.loginBox .login-box {
+    padding: 0 30px;
+}
+
+.loginBox .login-box .layui-form-item {
+    position: relative;
+}
+
+.loginBox .login-box i {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.loginBox .login-box .layui-input {
+    padding-left: 32px;
+}
+
+.loginBox .login-box a {
+    float: right;
+}
+
+.loginBox .reg-box {
+    display: none;
+    padding: 0 30px;
+}
+
+.loginBox .reg-box .layui-form-item {
+    position: relative;
+}
+
+.loginBox .reg-box i {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.loginBox .reg-box .layui-input {
+    padding-left: 32px;
+}
+
+.loginBox .reg-box a {
+    float: right;
+}
+
+
+
+
+
